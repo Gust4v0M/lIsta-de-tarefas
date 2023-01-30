@@ -102,4 +102,34 @@ li{
             width: 100px;
         }
 
+        body{ 
+            background-image: linear-gradient( 30deg,
+          #230c33,
+          #062726)
+  
+      }
+  
+          .container1{
+              height:200px ;
+              width: 100px;
+              background-image: linear-gradient( 30deg,
+              #230c33,
+              #062726);
+  
+          }
+          .container{
+              height:200px ;
+              width: 100px;
+          }
+          #write{
+              font-size: 20px;
+              border-radius: 10px;
+              border-color: black;
+              background-image: linear-gradient(30deg,
+              #230c33,
+              #062726
+              );
+              color:white
+          }
+
 }
