@@ -52,17 +52,6 @@ onload = function(){
 
 
 
-let teste = document.getElementById("teste")
-
-
-let del = document.createElement("DEL")
-
-del.appendChild(teste)
-
-document.body.appendChild(del)
-
-
-
 // onload = function (){
 
 //   let nome = JSON.parse(localStorage.getItem("tarefas" ) || [] );

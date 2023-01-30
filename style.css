@@ -7,9 +7,9 @@
 
 body{
     overflow: hidden;
-    background-image: linear-gradient( 30deg,
+    /* background-image: linear-gradient( 30deg,
     #062726,
-    #8d2828);
+    #8d2828); */
 
 }
 .container1{
@@ -80,12 +80,26 @@ li{
     padding: 5px;
 }
  
-@media (max-width: 800px){
+@media (max-width: 500px){
+
+    body{ 
+          background-image: linear-gradient( 30deg,
+        #230c33,
+        #062726)
+
+    }
 
         .container1{
             height:200px ;
-            width: 00px;
+            width: 100px;
+            background-image: linear-gradient( 30deg,
+            #230c33,
+            #062726);
+
         }
-    
+        .container{
+            height:200px ;
+            width: 100px;
+        }
 
 }
