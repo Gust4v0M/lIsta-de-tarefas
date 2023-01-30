@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    /* overflow: hidden; */
+} 
+
+body{
+    overflow: hidden;
+    background-image: linear-gradient( 30deg,
+    #062726,
+    #8d2828);
+
+}
+.container1{
+    padding: 40px;
+    background-image: linear-gradient( 30deg,
+    #062726,
+    #230c33);
+    height:650px ;
+    margin-left:650px ;
+    width: 650px;
+    margin-top: -650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:650px ;
+    box-sizing: border-box;
+    text-align: center;
+    width: 650px;
+    background-image: linear-gradient( 30deg,
+    #230c33,
+    #062726);
+ 
+
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: seashell ;
+  }
+    
+#write{
+    font-size: 35px;
+    border-radius: 10px;
+    border-color: black;
+    background-image: linear-gradient(30deg,
+    #230c33,
+    #062726
+    );
+    color:white
+}
+
+#bnt{
+    border-radius: 5px;
+    margin: 10px;
+    padding:15px;
+    background-color:black;
+    display: inline;
+    color:seashell;
+}
+
+li{
+     list-style: none;  
+     text-align: center;
+     display: inline;
+     padding-bottom: 40px;
+}
+
+#check{
+    padding: 5px;
+}
+ 
+@media (max-width: 800px){
+
+        .container1{
+            height:200px ;
+            width: 00px;
+        }
+    
+
+}
