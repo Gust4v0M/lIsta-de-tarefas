@@ -2,7 +2,7 @@ let lista = document.getElementById("lista");
 let bnt = document.getElementById("bnt");
 let input = document.getElementById("write");
 
-
+alert("Be welcome to your to do list, a place where you can write your tasks")
 var array = [];
 
 function Addlist(){

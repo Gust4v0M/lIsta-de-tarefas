@@ -82,15 +82,15 @@ li{
  
 @media (max-width: 800px){
  
+    
+        body{ 
 
-    /* body{ 
+            background-image: linear-gradient( 30deg,
+            #230c33,
+            #062726)
+            
 
-          background-image: linear-gradient( 30deg,
-        #230c33,
-        #062726)
-        
-
-    } */
+        } 
        .container{
             /* margin-left: 100px; */
             height: 400px ;
@@ -109,8 +109,6 @@ li{
             /* background-image: linear-gradient( 30deg,
             #230c33,
             #062726); */
-
-            background-color: red;
 
         }
 
