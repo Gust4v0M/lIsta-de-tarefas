@@ -94,9 +94,10 @@ li{
        .container{
             /* margin-left: 100px; */
             height: 400px ;
-            width: 500px;
+            width: 450px;
             display: flex;
             text-align: center;
+            justify-content: center;
             
         }
 
@@ -105,15 +106,18 @@ li{
             margin: 0px;
             /* margin-top:200px ; */
             height: 300px ;
-            width: 500px;
+            width: 450px;
             /* background-image: linear-gradient( 30deg,
             #230c33,
             #062726); */
+            display: flex;
+            text-align: center;
+            justify-content: center;
 
         }
 
     #write{
-              font-size: 10px;
+              font-size: 18px;
               border-radius: 10px;
               border-color: black;
               background-image: linear-gradient(30deg,
@@ -121,14 +125,16 @@ li{
               #062726
               );
               color:white;
-              margin: 0;
-              text-align: ce;
+
+
           }
     #bnt{
         padding: 3px;
+        font-size: 18px;
 
     }
 
-
+    
+   
 
 }
